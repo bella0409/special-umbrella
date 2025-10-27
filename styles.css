@@ -36,13 +36,25 @@ justify-content: center;
   justify-content: center;
 }
 
+#card2 {
+  background-image: url('https://example.com/your-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #A{
   background-image : url('https://cdn.travie.com/news/photo/202505/54296_39721_226.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#B{
+  background-image : url('https://cdn.travie.com/news/photo/202505/54296_39721_226.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* 보너스: hover */
 .card:hover {
   transform: translateY(-4px);
