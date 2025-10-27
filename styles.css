@@ -1,0 +1,50 @@
+*{
+  text-align: center; 
+}
+header, footer { 
+  padding: 24px 16px; 
+  background-color : rgba(232, 191, 244, 0.63);
+}
+
+.subtitle { 
+  margin: 0; 
+  color: #666; 
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  padding : 1%;
+  gap : 10px; 
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  border-radius: 16px;
+  background: linear-gradient(#ff7ab6, #7a67ff);
+  aspect-ratio: 1 / 1;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  transition: transform .15s ease;
+  display: flex; 
+  flex: 1 1 200px;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+#A{
+  background-image : url('https://cdn.travie.com/news/photo/202505/54296_39721_226.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 보너스: hover */
+.card:hover {
+  transform: translateY(-4px);
+  transition: transform .15s ease;
+}
